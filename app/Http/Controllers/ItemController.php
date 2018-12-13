@@ -15,11 +15,11 @@ class ItemController extends Controller
     }
 
     public function index(){
-
+      $item = Item::all();
       return view('item');
     }
 
-    public function werehouseaction(Request $request){
+    public function saveitem(Request $request){
       $item = new Item;
       $item->item_name = $request->item_name;
       $item->save();
