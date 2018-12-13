@@ -9,7 +9,7 @@
           <strong>Add New Items</strong>
         </div>
         <div class="panel-body">
-          <form method="post" action="{{ route('item')}}">
+          <form method="post" action="{{ route('saveitem')}}">
               {{csrf_field()}}
               <div class="form-group">
                 <label for="text">Items Name</label>
