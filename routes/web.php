@@ -16,4 +16,4 @@ Route::delete('/{werehouse_id}', 'WerehouseController@destroy')->name('deletewer
 
 // items
 Route::get('/item', 'ItemController@index')->name('itemsindex');
-Route::post('/item', 'ItemController@itemaction')->name('item');
+Route::post('/item', 'ItemController@saveitem')->name('saveitem');
