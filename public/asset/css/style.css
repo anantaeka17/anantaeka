@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	background-color: #fdfdfd;
+}
+.text{
+	padding: 8px 0px 0px 0px;
+	font-size: 18pt;
+	color: black;
+}
+.color{color: black;}
+.warna {
+    background-color: #fdfdfd;
+    color: #fff;
+    box-shadow: 1px 0px 4px 0px #bfbfbf;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.container{
+	margin-top: 70px;
+	width: 100%;
+}
+.sidebar-nav .navbar li{
+	float: none;
+	display: block;
+	padding-top: 1px;
+}
+.sidebar-nav .navbar ul {
+    float: none;
+}
+.sidebar-nav .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card{
+	padding: 2px 20px 5px 20px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+.up{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
